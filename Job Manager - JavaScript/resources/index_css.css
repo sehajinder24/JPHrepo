@@ -1,0 +1,49 @@
+.page {
+    max-width: 1400px;
+    right: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+p{
+  font-size: 18px;
+}
+
+form{
+    columns: 3;
+    line-height: 95%;
+    margin-left: 10px;
+    margin-right: 600px;
+}
+
+ul {
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 85%;
+    padding: 40;            
+    margin: 0;            
+    columns: 5;
+}
+h1 {
+    font-size: 35px;
+    color: #0066cc;
+}
+
+
+    li {
+        color:green; 
+    }
+
+
+.container {
+  position: absolute; 
+  width: 1920px;
+  height: 1080px;
+  border: 2px solid green;
+}
+
+.pico{
+  position: absolute;
+  top: 70px;
+  right: 120px; 
+}

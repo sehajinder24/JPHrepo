@@ -1,0 +1,88 @@
+html, body {
+	font-family: Arial, sans-serif;
+        background-color: rgba(200, 200, 220, 0.9);
+	background-repeat: repeat;
+	color: #222;
+}
+
+.cards {
+
+    display: flex;
+    gap: 25px;
+    flex-wrap: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0a3d62;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    padding: 25px;
+    width: 300px;
+    color: black;
+    border: 5px solid #000;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    color: 4477ca;
+}
+
+button {
+    color: grey;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    color: black;
+    margin-top: 5px;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+edit{
+    color: black;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+edit:hover {
+    color: black;
+    margin-top: 5px;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+.delete {
+    background: red;
+    color: white;
+    border: none;
+}
+
+.delete:hover {
+    transform: scale(1.05);
+    background: red;
+    color: black;
+    border: none;
+}
+
+.normal {
+background: #2ecc71;
+}
+
+.closed {
+background: #f39c12;
+}
+
+.out {
+background: #e74c3c;
+}
